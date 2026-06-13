@@ -1,0 +1,16 @@
+# Ignore frontend files
+app/
+assets/
+scripts/
+*.md
+.gitignore
+tsconfig.json
+eslint.config.js
+expo-env.d.ts
+app.json
+eas.json
+package-lock.json
+yarn.lock
+
+# Keep only backend files
+!backend/

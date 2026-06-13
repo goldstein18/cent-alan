@@ -1,0 +1,47 @@
+# Dependencies (EAS Build maneja esto automáticamente, pero por si acaso)
+node_modules/
+
+# Backend (no necesario en el build de la app móvil)
+backend/
+
+# Archivos de desarrollo
+.git/
+.gitignore
+*.log
+*.map
+.DS_Store
+*.pem
+*.key
+*.p12
+*.mobileprovision
+
+# Archivos de configuración de desarrollo
+.env*.local
+.vscode/
+.idea/
+
+# Archivos de build locales
+dist/
+web-build/
+.expo/
+
+# Documentación
+*.md
+!README.md
+
+# Archivos de test
+**/__tests__/
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+
+# Archivos temporales
+*.tmp
+*.temp
+.cache/
+
+# Datos de migración / CSVs — no necesarios en el build
+csv-update/
+*.csv
+
